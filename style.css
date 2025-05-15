@@ -1,17 +1,21 @@
-/* style.css */
+/* Updated style.css */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+  background: linear-gradient(to right, #d0e7ff, #f0faff);
   color: #333;
 }
 
 header {
-  background-color: #004d40;
+  background-color: #1976d2;
   padding: 1rem;
   text-align: center;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 header h1 {
@@ -20,18 +24,25 @@ header h1 {
 }
 
 nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 0.5rem;
+  gap: 10px;
 }
 
 nav a {
-  margin: 0 15px;
+  padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  border-radius: 5px;
+  background-color: #2196f3;
+  transition: background-color 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #1565c0;
 }
 
 section {
@@ -41,8 +52,8 @@ section {
 }
 
 section h2 {
-  color: #00695c;
-  border-bottom: 2px solid #80cbc4;
+  color: #0d47a1;
+  border-bottom: 2px solid #64b5f6;
   padding-bottom: 5px;
   margin-bottom: 1rem;
 }
@@ -69,7 +80,7 @@ section h2 {
 }
 
 .project h3 {
-  color: #004d40;
+  color: #1565c0;
 }
 
 .project a {
@@ -77,7 +88,7 @@ section h2 {
   margin-top: 0.5rem;
   margin-right: 1rem;
   padding: 0.5rem 1rem;
-  background: #004d40;
+  background: #1976d2;
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -85,13 +96,47 @@ section h2 {
 }
 
 .project a:hover {
-  background: #00796b;
+  background: #0d47a1;
+}
+
+#skills .skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#skills .skill-item {
+  text-align: center;
+  background: #e3f2fd;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+#skills .skill-item:hover {
+  transform: scale(1.05);
+}
+
+#skills .skill-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.education-container {
+  background: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 1rem;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #004d40;
+  background: #1976d2;
   color: white;
   margin-top: 2rem;
   font-size: 0.9rem;
@@ -100,4 +145,15 @@ footer {
 ul {
   list-style-type: disc;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
 }
