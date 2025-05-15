@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f4f6f8;
+  background-color: #f3f4f6;
   color: #1f2937;
   line-height: 1.6;
 }
@@ -14,7 +14,7 @@ a {
 
 /* Header */
 header {
-  background-color: #111827;
+  background-color: #1f2937;
   color: white;
   padding: 1.5rem 0;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav a {
-  color: #f3f4f6;
+  color: #e5e7eb;
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -52,16 +52,16 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #1f2937;
+  background-color: #374151;
 }
 
 /* Section Styling */
 section {
   padding: 3rem 10%;
-  background-color: #ffffff;
+  background-color: #f9fafb;
   margin-bottom: 2rem;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 h2 {
@@ -76,10 +76,10 @@ h2 {
 .project {
   margin-bottom: 2.5rem;
   padding: 1.5rem;
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
+  background: #eef2f7;
+  border: 1px solid #dbeafe;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
 }
 
 .project img {
@@ -117,20 +117,22 @@ h2 {
 }
 
 .skills-grid div {
-  background: #1f2937;
-  color: white;
+  background: #e0e7ff;
+  color: #1e3a8a;
   padding: 0.75rem;
   border-radius: 6px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 /* Education and Certifications */
 .card {
-  background-color: #f3f4f6;
+  background-color: #f0f4ff;
   padding: 1rem 1.5rem;
   border-radius: 10px;
   border-left: 5px solid #3b82f6;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
 ul {
@@ -160,7 +162,7 @@ ul li {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #111827;
+  background: #1f2937;
   color: #d1d5db;
   font-size: 0.95rem;
 }
