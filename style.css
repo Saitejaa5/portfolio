@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #f3f4f6;
-  color: #1f2937;
+  background-color: #f1f5f9;
+  color: #0f172a;
   line-height: 1.6;
 }
 
@@ -14,7 +14,7 @@ a {
 
 /* Header */
 header {
-  background-color: #1f2937;
+  background-color: #1e293b;
   color: white;
   padding: 1.5rem 0;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav a {
-  color: #e5e7eb;
+  color: #cbd5e1;
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -52,23 +52,23 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #374151;
+  background-color: #334155;
 }
 
 /* Section Styling */
 section {
   padding: 3rem 10%;
-  background-color: #f9fafb;
+  background-color: #ffffff;
   margin-bottom: 2rem;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 h2 {
-  color: #1e40af;
+  color: #0f172a;
   margin-bottom: 1.2rem;
   font-size: 1.8rem;
-  border-bottom: 2px solid #3b82f6;
+  border-bottom: 3px solid #14b8a6;
   display: inline-block;
 }
 
@@ -76,10 +76,10 @@ h2 {
 .project {
   margin-bottom: 2.5rem;
   padding: 1.5rem;
-  background: #eef2f7;
-  border: 1px solid #dbeafe;
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .project img {
@@ -96,7 +96,7 @@ h2 {
 .project a {
   display: inline-block;
   margin-top: 0.5rem;
-  background: #2563eb;
+  background: #3b82f6;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -105,7 +105,7 @@ h2 {
 }
 
 .project a:hover {
-  background: #1e40af;
+  background: #2563eb;
 }
 
 /* Skills Grid */
@@ -117,21 +117,21 @@ h2 {
 }
 
 .skills-grid div {
-  background: #e0e7ff;
-  color: #1e3a8a;
+  background: #14b8a6;
+  color: white;
   padding: 0.75rem;
   border-radius: 6px;
   text-align: center;
   font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
 /* Education and Certifications */
 .card {
-  background-color: #f0f4ff;
+  background-color: #f8fafc;
   padding: 1rem 1.5rem;
   border-radius: 10px;
-  border-left: 5px solid #3b82f6;
+  border-left: 5px solid #14b8a6;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
@@ -145,7 +145,7 @@ ul li {
 
 /* Resume Button */
 .button {
-  background: #1e40af;
+  background: #3b82f6;
   color: white;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -155,14 +155,14 @@ ul li {
 }
 
 .button:hover {
-  background: #1e3a8a;
+  background: #2563eb;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background: #1f2937;
-  color: #d1d5db;
+  background: #1e293b;
+  color: #cbd5e1;
   font-size: 0.95rem;
 }
