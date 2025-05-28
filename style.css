@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to bottom right, #0f172a, #1e293b);
-  color: #e2e8f0;
+  background: #ffffff;
+  color: #1a1a1a;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
@@ -20,12 +20,13 @@ img {
 
 /* Header */
 header {
-  background: rgba(15, 23, 42, 0.95);
+  background: #ffffff;
   padding: 1.2rem 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 header .container {
@@ -39,10 +40,9 @@ header .container {
 
 header h1 {
   margin: 0;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #38bdf8;
-  letter-spacing: 1px;
+  color: #000000;
 }
 
 /* Navigation */
@@ -54,70 +54,68 @@ header h1 {
 }
 
 nav a {
-  color: #cbd5e1;
+  color: #1a1a1a;
   padding: 0.5rem 1rem;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 6px;
-  transition: 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 nav a:hover {
-  background: #0ea5e9;
-  color: #fff;
+  background: #f0f0f0;
 }
 
 /* Section Styling */
 section {
   padding: 3rem 8%;
   margin: 2rem 0;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Headings */
 h2 {
-  color: #38bdf8;
+  color: #000000;
   margin-bottom: 1.5rem;
-  font-size: 2rem;
-  border-bottom: 3px solid #22d3ee;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #000;
   display: inline-block;
 }
 
 /* Project Cards */
 .project {
   margin-bottom: 2.5rem;
-  background: rgba(30, 41, 59, 0.9);
-  border: 1px solid #334155;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
   padding: 1.5rem;
-  border-radius: 12px;
+  border-radius: 10px;
   transition: 0.3s ease;
 }
 
 .project:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .project h3 {
   margin: 0.8rem 0;
-  color: #0ea5e9;
+  color: #000;
 }
 
 .project a {
   margin-top: 0.7rem;
   display: inline-block;
-  background: #0ea5e9;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
-  font-weight: 600;
-  transition: 0.3s ease;
+  font-weight: 500;
+  transition: background 0.3s ease;
 }
 
 .project a:hover {
-  background: #0284c7;
+  background: #333333;
 }
 
 /* Skills Grid */
@@ -129,13 +127,13 @@ h2 {
 }
 
 .skills-grid div {
-  background: #22d3ee;
-  color: #0f172a;
+  background: #1a1a1a;
+  color: #ffffff;
   padding: 0.75rem;
   border-radius: 8px;
   text-align: center;
-  font-weight: 700;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
@@ -145,11 +143,11 @@ h2 {
 
 /* Education / Certifications */
 .card {
-  background: rgba(226, 232, 240, 0.08);
+  background: #ffffff;
   padding: 1.5rem;
   border-radius: 10px;
-  border-left: 5px solid #22d3ee;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  border-left: 4px solid #000000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 ul {
@@ -158,27 +156,28 @@ ul {
 
 ul li {
   margin-bottom: 0.5rem;
-  color: #f1f5f9;
+  color: #333;
 }
 
 /* Resume Button */
 .button {
-  background: #0ea5e9;
-  color: white;
+  background: #000000;
+  color: #ffffff;
   padding: 0.75rem 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 8px;
   display: inline-block;
   transition: background 0.3s ease;
 }
 
 .button:hover {
-  background: #0284c7;
+  background: #333333;
 }
 
 /* Contact */
 #contact a {
-  color: #38bdf8;
+  color: #000;
+  font-weight: 500;
 }
 
 #contact a:hover {
@@ -189,9 +188,9 @@ ul li {
 footer {
   text-align: center;
   padding: 1rem;
-  background: rgba(15, 23, 42, 0.95);
-  color: #cbd5e1;
-  font-size: 0.95rem;
+  background: #ffffff;
+  color: #777;
+  font-size: 0.9rem;
   margin-top: 2rem;
-  border-top: 1px solid #334155;
+  border-top: 1px solid #e5e5e5;
 }
